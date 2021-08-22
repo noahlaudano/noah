@@ -1,0 +1,77 @@
+body {
+  color: #000;
+  font-family: monospace;
+  background-color: #e9ecef;
+}
+
+.avatar {
+  width: 150px;
+  margin: 20px auto;
+  border: 5px solid #000;
+}
+
+.myname {
+  text-align: center;
+}
+
+.myname h2 {
+  color: #68257a;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+p.lead {
+  text-align: justify;
+}
+
+a {
+  color: #68257a;
+}
+
+a:hover {
+  cursor: url(img/clickable-sm.png) 10 10, auto;
+  color: #000;
+  text-decoration: none;
+}
+
+i.fas,
+i.fab,
+i.far {
+  color: #000;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+i.fab:hover,
+i.far:hover,
+i.fas:hover {
+  padding-right: 8px;
+  color: #68257a;
+  transform: rotate(15deg);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 25px;
+  background-color: #5c676b;
+  color: #ccc;
+  font-size: 1em;
+}
+/*
+@media (min-width: 900px) {
+  header {
+    clear: both;
+    border-bottom: 1px dotted #ccc;
+  }
+  .avatar {
+    float: left;
+  }
+  .myname {
+    text-align: left;
+  }
+}

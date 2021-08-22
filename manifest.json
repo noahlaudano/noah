@@ -1,0 +1,15 @@
+{
+    "lang": "en",
+    "name": "Nathalia Laudano Front-end Developer",
+    "short_name": "Nathalia Laudano",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#e9ecef",
+    "icons": [
+        {
+            "src":"img/favicon.ico",
+             "type":"image/x-icon"
+        }
+    ]
+  }
