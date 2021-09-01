@@ -1,8 +1,7 @@
 body {
   color: #000;
   font-family: monospace;
-  background-color: #e9ecef;
-}
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);}
 
 .avatar {
   width: 150px;
@@ -35,7 +34,7 @@ a {
 a:hover {
   cursor: url(img/clickable-sm.png) 10 10, auto;
   color: #000;
-  text-decoration: none;
+  text-decoration:solid underline #68257a;
 }
 
 i.fas,
@@ -58,7 +57,7 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 25px;
-  background-color: #5c676b;
+  background-color: #656565;
   color: #ccc;
   font-size: 1em;
 }
