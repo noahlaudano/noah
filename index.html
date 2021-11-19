@@ -37,8 +37,12 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <div class="mt-5">
+      <header class="mt-5">
+        <div class="text-center">
+          <button onclick="Portugues()">🇧🇷</button>
+          <button onclick="English()">🇺🇸</button>
+        </div>
+        <div class="mt-2">
           <img
             src="img/nathalia.jpg"
             alt="Nathalia Laudano"
@@ -47,44 +51,83 @@
         </div>
         <div class="myname">
           <h1>Nathalia Laudano</h1>
-          <h2>full-stack developer</h2>
+          <h2>developer</h2>
         </div>
       </header>
       <main>
-        <div class="m-5">
-          <h2>hello there!</h2>
-          <p class="lead mt-3">
-            I'm Nathalia! I work as a developer at
-            <a href="https://crazytechlabs.com.br/">CrazyTechLabs</a>, always
-            trying to keep studying and improving my knowledge. I’m dedicated to
-            progress more and more towards my seniority as a full-stack
-            developer.
-          </p>
-          <p class="lead mt-3">
-            You can check some of my codes at
-            <a href="https://github.com/nathaliaiscoding" target="_blank"
-              >Github</a
-            >
-            and get to know me better at
-            <a
-              href="https://www.linkedin.com/in/nathalialaudano"
-              target="_blank"
-            >
-              LinkedIn</a
-            >!
-          </p>
+        <div id="english" class="">
+          <div class="m-5">
+            <h2>hello there!</h2>
+            <p class="lead mt-3">
+              I'm Nathalia! I worked as junior developer, for 6 months, in an
+              IoT company in Brazil. There, I could learn and practice .NET, C#,
+              ASP.NET Core MVC, Git, JavaScript, and much more. During this
+              time, I had the opportunity to work both in development and
+              production environment.
+            </p>
+            <p class="lead mt-3">
+              You can check some of my codes at
+              <a href="https://github.com/nathaliaiscoding" target="_blank"
+                >Github</a
+              >
+              and get to know me better at
+              <a
+                href="https://www.linkedin.com/in/nathalialaudano"
+                target="_blank"
+              >
+                LinkedIn</a
+              >!
+            </p>
+          </div>
+          <div class="text-center mb-5">
+            <h4 class="mb-3">You can also contact me anytime!</h4>
+            <a href="mailto:nathalialaudano@gmail.com"
+              ><i class="far fa-envelope social"></i
+            ></a>
+            <a href="http://www.instagram.com/nathalialaudano" target="_blank"
+              ><i class="fab fa-instagram social"></i
+            ></a>
+            <a href="https://twitter.com/nathalialaudano" target="_blank"
+              ><i class="fab fa-twitter social"></i
+            ></a>
+          </div>
         </div>
-        <div class="text-center mb-5">
-          <h4 class="mb-3">You can also contact me anytime!</h4>
-          <a href="mailto:nathalialaudano@gmail.com"
-            ><i class="far fa-envelope social"></i
-          ></a>
-          <a href="http://www.instagram.com/nathalialaudano" target="_blank"
-            ><i class="fab fa-instagram social"></i
-          ></a>
-          <a href="https://twitter.com/nathalialaudano" target="_blank"
-            ><i class="fab fa-twitter social"></i
-          ></a>
+        <div id="portugues" class="d-none">
+          <div class="m-5">
+            <h2>olá!</h2>
+            <p class="lead mt-3">
+              Meu nome é Nathalia! Trabalhei por 6 meses em uma empresa de IoT,
+              como desenvolvedora júnior, aonde pude aprender e praticar .NET,
+              C#, ASP.NET Core MVC, Git, JavaScript e muito mais. Durante esse
+              tempo, tive oportunidade de trabalhar tanto em ambiente de
+              desenvolvimento como de produção.
+            </p>
+            <p class="lead mt-3">
+              Você pode ver alguns dos meus códigos no meu
+              <a href="https://github.com/nathaliaiscoding" target="_blank"
+                >Github</a
+              >
+              e me conhecer um pouco melhor pelo meu
+              <a
+                href="https://www.linkedin.com/in/nathalialaudano"
+                target="_blank"
+              >
+                LinkedIn</a
+              >!
+            </p>
+          </div>
+          <div class="text-center mb-5">
+            <h4 class="mb-3">Entre em contato!</h4>
+            <a href="mailto:nathalialaudano@gmail.com"
+              ><i class="far fa-envelope social"></i
+            ></a>
+            <a href="http://www.instagram.com/nathalialaudano" target="_blank"
+              ><i class="fab fa-instagram social"></i
+            ></a>
+            <a href="https://twitter.com/nathalialaudano" target="_blank"
+              ><i class="fab fa-twitter social"></i
+            ></a>
+          </div>
         </div>
       </main>
     </div>
@@ -106,5 +149,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
